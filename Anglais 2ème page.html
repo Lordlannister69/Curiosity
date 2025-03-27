@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Curiosity/website.org</title>
+    <style>
+        /* Styles généraux */
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            background-color: #1B1B3A; /* Bleu nuit */
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        main {
+            flex: 1;
+            padding-bottom: 20px;
+        }
+
+        /* Titres */
+        h1, h2 {
+            color: #FF9100; /* Orange */
+        }
+
+        /* Footer */
+        footer {
+            background: #2E86C1; /* Bleu clair */
+            width: 100%;
+            padding: 15px;
+            box-sizing: border-box;
+            text-align: center;
+            color: white;
+            font-size: 15px;
+        }
+
+        /* Summary (titres des details) */
+        summary {
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+            cursor: pointer;
+            color: #FF9100; /* Orange */
+        }
+
+        summary h2 {
+            margin: 0 0 0 10px;
+        }
+
+        /* Liens */
+        a {
+            color: #FF9100;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #FFA733; /* Orange plus clair au survol */
+        }
+
+        /* Image centrée */
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1 style="text-align:center;"><u>Curiosity</u></h1>
+
+        <details> 
+            <summary><h2><u>How it is built?</u></h2></summary>
+            <p><h3>
+                The robot is composed of 6 drive wheels that adapt to every type of ground. Moreover, a mechanical hand is set on it with a geological probe, which can rotate 360°. 
+                What’s more, an on-board camera is integrated on its top, allowing you to see from its point of view.
+                <br><br>
+                Indeed, its resolution is 4K and 144Hz, enabling you to control the bot with precision. In addition to these features, it is equipped with a hygrometry system to measure humidity in its environment.
+            </h3></p>
+
+            <div class="image-container"> 
+                <img src="file:///D:/Anglais/Anglais%20HTML/Images/En%20vue%20exploser.png" style="height:350px;width:350px;"> 
+            </div>
+        </details>
+
+        <details> 
+            <summary><h2><u>Be in the robot's view!</u></h2></summary>
+            
+            <div class="image-container">
+                <iframe width="840" height="473" src="https://www.youtube.com/embed/sbfODUMgfcw" title="Curiosity Rover Leaves Gediz Vallis Channel (360 View)" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+        </details>
+
+        <h1>
+            <a href="file:///D:/Anglais/Anglais%20HTML/Anglais%20premiere%20curiosity.html">← Return to n°1</a>
+        </h1>
+    </main>
+
+    <footer>
+        <p>A website Created by Dorian</p>
+        <p>My contact → <a href="file:///D:/Anglais/Anglais%20HTML/Easter%20egg.html">Dorian.AT@hotmail.com</a></p>
+        <p>For more information about this project, you can visit this website → 
+            <a href="https://science.nasa.gov/mission/msl-curiosity/">NASA - Curiosity Mission</a>
+        </p>
+    </footer>
+</body>
+</html>

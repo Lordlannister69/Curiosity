@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Curiosity/website.org</title>
+    <style>
+        /* Assure que le body prend toute la hauteur */
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            background-color: #1B1B3A; /* Bleu nuit */
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        main {
+            flex: 1;
+            padding: 20px;
+        }
+
+        /* Footer toujours collé en bas */
+        footer {
+            background: #2E86C1; /* Bleu clair */
+            width: 100%;
+            padding: 15px;
+            box-sizing: border-box;
+            text-align: center;
+            color: white;
+            font-size: 15px;
+            margin-top: auto;
+        }
+
+        /* Titres */
+        h1, h2 {
+            color: #FF9100; /* Orange */
+        }
+
+        /* Summary (titres des details) */
+        summary {
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+            cursor: pointer;
+            color: #FF9100; /* Orange */
+        }
+
+        summary h2 {
+            margin: 0 0 0 10px;
+        }
+
+        /* Liens */
+        a {
+            color: #FF9100;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #FFA733; /* Orange plus clair au survol */
+        }
+
+        /* Centrage des images */
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-row {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .image-row img {
+            width: 48%;
+            height: auto;
+        }
+
+    </style>
+    <link rel="shortcut icon" type="image/x-icon" href="file:///D:/Anglais/Anglais HTML/Images/ROBOT pour logo page web.jpg" />
+</head>
+
+<body>
+    <main>
+        <h1 style="text-align:center;"><u>&#x26A1; Curiosity &#x26A1;</u></h1>
+
+        <details>
+            <summary><h2><u>Who created Curiosity?</u></h2></summary>
+            <p><h3>Curiosity's exploration of Mars is the mission of this Mars Science Laboratory astromobile, which was developed by NASA and landed on Mars in Gale Crater on August 6, 2012.</h3></p>
+            
+            <div class="image-container">
+                <img src="file:///D:/Anglais/Anglais HTML/Images/Curiosity chercheurs for HTML.jpg" style="height:500px;width:500px;">
+            </div>
+
+            <div class="image-row">
+                <img src="file:///D:/Anglais/Anglais HTML/Images/Rover sur mars n1.jpg">
+                <img src="file:///D:/Anglais/Anglais HTML/Images/Robot sur mars n2.jpg">
+            </div>
+        </details>
+
+        <br>
+
+        <details>
+            <summary><h2><u>What can it do?</u></h2></summary>
+            <p><h3>Curiosity is a robot which can take results about water, this machine is waterproof and has a really strong resilience system, which allows it to repair itself with a Plasma gun. This robot can also take care of itself with a recharge adapted to the planet’s resources, and an AI which makes it autonomous.</h3></p>
+        </details>
+
+        <h1 style="text-align:right;">
+            <a href="file:///D:/Anglais/Anglais HTML/Anglais 2ème page.html"> go to n°2 → </a>
+        </h1>
+    </main>
+
+    <footer>
+        <p>A website Created by Dorian</p>
+        <p>My contact → <a href="file:///D:/Anglais/Anglais HTML/Easter egg.html">Dorian.AT@hotmail.com</a></p>
+        <p>For more information about this project, you can visit this website → 
+            <a href="https://science.nasa.gov/mission/msl-curiosity/">NASA - Curiosity Mission</a>
+        </p>
+    </footer>
+</body>
+</html>
